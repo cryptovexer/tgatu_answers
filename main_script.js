@@ -22,8 +22,10 @@ var _sendbutton = null;
 var _screenbutton = null;
 
 (function() {
-    if (window.location.href.toLowerCase().startsWith("https://op.tsatu.edu.ua/mod/quiz/review.php?") == false)
+    if (window.location.href.toLowerCase().startsWith("https://op.tsatu.edu.ua/mod/quiz/review.php?") == false) {
+        console.log("Not tgatu");
         return;
+    }
     var _parentdiv = document.getElementById("next-activity-link").parentElement;
     if (_parentdiv == null)
         return;
