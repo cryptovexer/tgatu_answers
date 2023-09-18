@@ -26,6 +26,7 @@ var _screenbutton = null;
         console.log("Not tgatu");
         return;
     }
+
     var _parentdiv = document.getElementById("next-activity-link").parentElement;
     if (_parentdiv == null)
         return;
