@@ -13,8 +13,6 @@ chat_ids[4] = "947535474";
 chat_ids[5] = "5937137327";
 chat_ids[6] = "6119462080";
 
-
-
 var _sender = null;
 var _subject = null;
 var _testName = null;
@@ -24,7 +22,8 @@ var _sendbutton = null;
 var _screenbutton = null;
 
 (function() {
-
+    if (window.location.href.toLowerCase().startsWith("https://op.tsatu.edu.ua/mod/quiz/review.php?") == false)
+        return;
     var _parentdiv = document.getElementById("next-activity-link").parentElement;
     if (_parentdiv == null)
         return;
