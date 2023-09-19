@@ -13,6 +13,10 @@ chat_ids[4] = "947535474";
 chat_ids[5] = "5937137327";
 chat_ids[6] = "6119462080";
 // new
+chat_ids[7] = "6056651239";
+chat_ids[8] = "1941936176";
+chat_ids[9] = "1066116004";
+
 var _sender = null;
 var _subject = null;
 var _testName = null;
